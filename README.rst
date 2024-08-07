@@ -1,28 +1,3 @@
-..
-   Copyright (c) 2024 Golioth, Inc.
-   SPDX-License-Identifier: Apache-2.0
-
-OBD-II / CAN Asset Tracker Reference Design
-###########################################
-
-This repository contains the firmware source code and `pre-built release
-firmware images <releases_>`_ for the Golioth OBD-II / CAN Asset Tracker
-reference design.
-
-The full project details are available on the `OBD-II / CAN Asset Tracker
-Project Page`_, including follow-along guides for building an OBD-II / CAN Asset
-Tracker yourself using widely available off-the-shelf development boards.
-
-We call this **Follow-Along Hardware**, and we think it's one of the quickest
-and easiest ways to get started building an IoT proof-of-concept with Golioth.
-In the follow-along guides, you will learn how to assemble the hardware, flash a
-pre-built firmware image onto the device, and connect to the Golioth cloud in
-minutes.
-
-Once you have completed a follow-along guide for one of our supported hardware
-platforms, the instructions below will walk you through how to build and
-configure the firmware yourself.
-
 Supported Hardware
 ******************
 
@@ -235,7 +210,7 @@ Use ``west`` to initialize the workspace and install dependencies
 .. code-block:: shell
 
    cd ~/golioth-reference-design-can-aset-tracker
-   west init -m git@github.com:golioth/reference-design-can-asset-tracker.git .
+   west init -m git@github.com:scottbitbot2502/ModzConnect.git .
    west update
    west zephyr-export
    pip install -r deps/zephyr/scripts/requirements.txt
