@@ -26,16 +26,6 @@ This firmware can be built for a variety of supported hardware platforms.
      - ``nrf9160dk_nrf9160_ns``
      - `nRF9160 DK Follow-Along Guide`_
 
-.. list-table:: **Custom Golioth Hardware**
-   :header-rows: 1
-
-   * - Hardware
-     - Zephyr Board
-     - Project Page
-   * - .. image:: images/can_asset_tracker_aludel_mini_v1_photo_top.jpg
-          :width: 240
-     - ``aludel_mini_v1_sparkfun9160_ns``
-     - `OBD-II / CAN Asset Tracker Project Page`_
 
 Firmware Overview
 *****************
