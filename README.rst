@@ -200,7 +200,7 @@ Use ``west`` to initialize the workspace and install dependencies
 .. code-block:: shell
 
    cd ~/golioth-reference-design-can-aset-tracker
-   west init -m git@github.com:scottbitbot2502/ModzConnect.git .
+   west init -m git@github.com:golioth/reference-design-can-asset-tracker.git .
    west update
    west zephyr-export
    pip install -r deps/zephyr/scripts/requirements.txt
