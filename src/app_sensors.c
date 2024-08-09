@@ -34,8 +34,8 @@ LOG_MODULE_REGISTER(app_sensors, LOG_LEVEL_DBG);
 #define OBD2_PID_RESPONSE_ID	       0x7E8
 #define OBD2_PID_RESPONSE_DLC	       8
 #define OBD2_SERVICE_SHOW_CURRENT_DATA 0x01
-#define ODB2_PID_VEHICLE_SPEED	       0x0D
-#define ODB2_PID_VEHICLE_SPEED_DLC     4
+#define ODB2_PID_VEHICLE_SPEED	       0x103
+#define ODB2_PID_VEHICLE_SPEED_DLC     8
 #define GOLIOTH_STREAM_TIMEOUT_S       2
 
 static struct golioth_client *client;
